@@ -30,5 +30,7 @@
 			speed: 1000,
 			offset: function() { return $nav.height(); }
 		});
+		// Change the href attribute to the Google Sheets URL
+                $('.scrolly').attr('href', 'https://docs.google.com/spreadsheets/d/1em0FvJ2W1BWhSFocWvtE9231QfLeBM0799eHHKq5bos/edit#gid=0');
 
 })(jQuery);
