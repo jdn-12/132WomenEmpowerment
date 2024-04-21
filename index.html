@@ -61,9 +61,8 @@
 							<section class="box style1">
 								<span class="icon featured fa-comments"></span>
 								<h3>Background</h3>
-								<p>Women empowerment is a multifaceted concept that involves various dimensions, including social, economic, and reproductive rights. Central to women’s empowerment is the ability to make informed decisions about their own bodies and lives. In recent decades, contraceptive use has been a critical factor in advancing women’s empowerment globally. In this study, we aim to explore another indicator of women empowerment—labor job participation of women and its intersectionality with contraceptive use.</p>
-								<p>While several studies have already tackled the correlation between labor job participation and rates of contraceptive use of women, particularly in the context of ASEAN countries, there is a need to extend this examination to a broader range of Asian countries. By expanding the geographic scope of the study, more nuanced understandings into the dynamics of contraceptive use, labor participation, and women empowerment across Asia could become apparent.</p>
-							</section>
+								<p>‘Shoot the vagina. No vagina, no use.’ These were the words uttered by President Rodrigo Duterte during a gathering with former New People’s Army members last 2018. For many, Duterte’s words epitomized the deeply-rooted gender inequality that continues to plague Philippine society. His remark served as a stark reminder of the persistent challenges faced by women, day by day. While Duterte’s words may have sparked controversy, they also ignited a broader conversation about advancing gender equality and empowering women to participate fully in all aspects of society. But do they actually get to? In this study, we aim to delve into the indicators of women’s empowerment—labor job participation and contraceptive use, and see if there has been progress at fostering greater gender equality. </p>
+								
 						</div>
 						<div class="col-4 col-6-medium col-12-small">
 							<section class="box style1">
@@ -157,15 +156,18 @@
 						<div class="col-6 col-6-medium col-12-small">
 							<article class="box style2">
 								<a href="#" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
-								<h3><a href="#">Data Preprocessing</a></h3>
-								<p>Ornare nulla proin odio consequat.</p>
+								<h3><a href="#">Data Source</a></h3>
+								<p>Information on labor force participation and contraceptive usage of women–expressed as a percentage of the population–was obtained from the World Bank's ‘World Development Indicators, The World Bank’ dataset. The dataset was compiled by the World Bank from data provided by the International Labour Organization (ILO) and the United Nations Population Division.</p>
 							</article>
 						</div>
 						<div class="col-6 col-6-medium col-12-small">
 							<article class="box style2">
 								<a href="#" class="image featured"><img src="images/pic01.jpg" alt="" /></a>
-								<h3><a href="#">Machine Learning</a></h3>
-								<p>Ornare nulla proin odio consequat.</p>
+								<h3><a href="#">Data Preprocessing</a></h3>
+								<p>A lot of the data, particularly in the labor force participation dataset, are either country-reported or missing, making it difficult to compare statistics internationally. To get a complete set of internationally comparable statistics, each dataset uses historical estimates in place of the missing data points.</p>
+								<p>The labor force participation dataset uses ILO modeled estimates, containing both reported observations and imputed data for countries with missing data. These estimates are produced through a series of econometric models maintained by the ILO and constantly revised to take into account new data. The estimates were available for the years 1991 through 2023.</p>
+								<p>The contraceptive usage dataset, on the other hand, did not have its missing data points already imputed. Thus, in order to maintain a consistent time series between the two datasets, the group imputed the missing values in the years between 1991 and 2023 through linear interpolation.</p>
+								<p>Finally, given that the scope of this project only covers Asian countries, all entries for regions not inside Asia were dropped from the dataset.</p>
 							</article>
 						</div>
 					</div>
