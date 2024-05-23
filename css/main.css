@@ -1530,7 +1530,7 @@ input, select, textarea {
 		font-size: 1em;
 		border-radius: 8px;
 		border: solid 1px #ddd;
-		background: #fff;
+		background: #ff70c3;
 		color: #bbb;
 		box-shadow: inset 0px 2px 3px 1px rgba(0, 0, 0, 0.05), 0px 1px 0px 0px rgba(255, 255, 255, 0.025);
 		width: 100%;
@@ -1604,7 +1604,7 @@ input, select, textarea {
 
 			table.default thead {
 				background: #4f4f4f;
-				color: #fff;
+				color: #ff70c3;
 			}
 
 /* Section/Article */
@@ -1676,7 +1676,7 @@ input, select, textarea {
 		-webkit-appearance: none;
 		position: relative;
 		display: inline-block;
-		color: #fff !important;
+		color: #ff70c3 !important;
 		text-decoration: none;
 		font-weight: 700;
 		border: 0;
@@ -1698,7 +1698,7 @@ input, select, textarea {
 		button:hover,
 		.button:hover {
 			background-color: #43bff0;
-			color: #fff !important;
+			color: #ff70c3 !important;
 		}
 
 		input[type="button"]:active,
@@ -1734,7 +1734,7 @@ input, select, textarea {
 			button.alt:hover,
 			.button.alt:hover {
 				background-color: #4f4f4f;
-				color: #fff !important;
+				color: #ff70c3 !important;
 			}
 
 			input[type="button"].alt:active,
@@ -1911,7 +1911,7 @@ input, select, textarea {
 /* Box */
 
 	.box {
-		background: #fff;
+		background: #ff70c3;
 		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.15), 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
 		text-align: center;
 		padding: 2em;
@@ -1995,17 +1995,17 @@ input, select, textarea {
 
 		.wrapper.style1 {
 			background-image: none;
-			background-color: #fff;
+			background-color: #ff70c3;
 		}
 
 		.wrapper.style2 {
 			background-color: #fafafa;
-			text-shadow: 1px 1px 0px #fff;
+			text-shadow: 1px 1px 0px #ff70c3;
 		}
 
 		.wrapper.style3 {
 			background-color: #f4f4f4;
-			text-shadow: 1px 1px 0px #fff;
+			text-shadow: 1px 1px 0px #ff70c3;
 		}
 
 		.wrapper.style4 {
@@ -2015,7 +2015,7 @@ input, select, textarea {
 		}
 
 			.wrapper.style4 h1, .wrapper.style4 h2, .wrapper.style4 h3, .wrapper.style4 h4, .wrapper.style4 h5, .wrapper.style4 h6 {
-				color: #fff;
+				color: #ff70c3;
 			}
 
 			.wrapper.style4 form input[type=text],
@@ -2066,19 +2066,19 @@ input, select, textarea {
 			transition: background-color .2s ease-in-out;
 			position: relative;
 			display: block;
-			color: #fff;
+			color: #ff70c3;
 			text-decoration: none;
 			outline: 0;
 			font-weight: 600;
 			border-radius: 8px;
-			color: #fff;
+			color: #ff70c3;
 			height: 2.5em;
 			line-height: 2.5em;
 			padding: 0 1.25em;
 		}
 
 			#nav a:hover {
-				color: #fff !important;
+				color: #ff70c3 !important;
 				background: #383838;
 			}
 
