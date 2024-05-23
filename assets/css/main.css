@@ -2066,7 +2066,7 @@ input, select, textarea {
 			transition: background-color .2s ease-in-out;
 			position: relative;
 			display: block;
-			color: #fff;
+			color: #f01ff0;
 			text-decoration: none;
 			outline: 0;
 			font-weight: 600;
