@@ -2443,3 +2443,15 @@ input, select, textarea {
 					}
 
 	}
+
+/* Change font color and background color */
+header h1 {
+    color: #fff; /* Replace 'yourDesiredFontColor' with your desired color code */
+    background-color: #FFC0CB; /* Replace 'yourDesiredBgColor' with your desired background color code */
+}
+
+header p {
+    color: #fff; /* Replace 'yourDesiredFontColor' with your desired color code */
+    background-color: #FFC0CB; /* Replace 'yourDesiredBgColor' with your desired background color code */
+}
+
