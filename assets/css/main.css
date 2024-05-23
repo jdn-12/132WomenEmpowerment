@@ -2078,8 +2078,8 @@ input, select, textarea {
 		}
 
 			#nav a:hover {
-				color: #fff !important;
-				background: #383838;
+				color: #e861ed !important;
+				background: #fff;
 			}
 
 			#nav a.active {
