@@ -2036,7 +2036,7 @@ input, select, textarea {
 /* Nav */
 
 	#nav {
-		background-color: #282828;
+		background-color: #fff;
 		text-align: center;
 		position: fixed;
 		left: 0;
@@ -2066,12 +2066,12 @@ input, select, textarea {
 			transition: background-color .2s ease-in-out;
 			position: relative;
 			display: block;
-			color: #f01ff0;
+			color: #fc72fc;
 			text-decoration: none;
 			outline: 0;
 			font-weight: 600;
 			border-radius: 8px;
-			color: #e861ed;
+			color: #fc72fc;
 			height: 2.5em;
 			line-height: 2.5em;
 			padding: 0 1.25em;
